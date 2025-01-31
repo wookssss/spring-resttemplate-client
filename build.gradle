@@ -18,6 +18,9 @@ configurations {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+    // json
+    implementation 'org.json:json:20230227'
+
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
